@@ -1,0 +1,34 @@
+"""Paleta oficial del prototipo SmartPriority AI."""
+
+AZUL_OSCURO = "#071B4A"
+AZUL_OSCURO_2 = "#0B245F"
+AZUL = "#2563EB"
+AZUL_CLARO = "#DBEAFE"
+MORADO = "#8B5CF6"
+MORADO_CLARO = "#EDE9FE"
+VERDE = "#22C55E"
+VERDE_CLARO = "#DCFCE7"
+NARANJA = "#F59E0B"
+NARANJA_CLARO = "#FEF3C7"
+ROJO = "#EF4444"
+ROJO_CLARO = "#FEE2E2"
+FONDO = "#F5F7FB"
+BLANCO = "#FFFFFF"
+BORDE = "#E5E7EB"
+TEXTO = "#111827"
+TEXTO_SUAVE = "#6B7280"
+GRIS = "#9CA3AF"
+
+PRIORIDAD_COLOR = {
+    "Crítica": ROJO,
+    "Alta": NARANJA,
+    "Media": AZUL,
+    "Baja": VERDE,
+}
+
+PRIORIDAD_FONDO = {
+    "Crítica": ROJO_CLARO,
+    "Alta": NARANJA_CLARO,
+    "Media": AZUL_CLARO,
+    "Baja": VERDE_CLARO,
+}
