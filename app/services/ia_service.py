@@ -1,8 +1,3 @@
-"""Motor IA simulado mediante reglas y palabras clave.
-
-El objetivo es que el prototipo demuestre el flujo: NLP -> prioridad -> área -> equipo -> confianza.
-Más adelante se puede reemplazar esta lógica por un modelo real.
-"""
 import re
 from app.services.sla_service import obtener_sla_minutos
 
